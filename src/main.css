@@ -1,0 +1,189 @@
+body
+{
+    background-color: #252525;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+main
+{
+    display: grid;
+    justify-items: center;
+}
+
+.todoApp
+{
+    background-color: #674dff;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    justify-items: center;
+    min-width: 25vw;
+}
+
+.todoHead
+{
+    display: grid;
+    justify-items: center;
+    align-items: stretch;
+    min-height: 18vh; 
+}
+
+#in1
+{
+    border-radius: 5rem 0rem 0rem 5rem;
+}
+
+#in2
+{
+    border-radius: 0rem 5rem 5rem 0rem;
+}
+
+.inputBlock
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inItem > p
+{
+    margin: 0rem;
+    font-size: .8rem;
+}
+
+input
+{
+    height: 1.6rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+}
+
+button
+{
+   width: 8rem;
+   font-size: 1.2rem;
+   border-radius: 1rem;
+}
+
+.todoOut > div > h3
+{
+    border-bottom:  #fff solid .2rem;
+}
+
+.todoOut
+{
+    width: 100%;
+}
+
+#listOut
+{
+    min-width: 100%;
+}
+
+.itemCat
+{
+    width: 100%;
+}
+
+.todoOut > div > h3
+{
+    text-align: center;
+}
+
+.itemCat > h4
+{
+    border-bottom: #fff solid .1rem;
+}
+
+.itemTog
+{
+    background-color: #fff;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 5rem;
+}
+
+.itemTog:hover
+{
+    background-color: #aaa;
+}
+
+.itemTog:active
+{
+    background-color: #555;
+}
+
+.itemElement
+{
+    display: grid;
+    grid-template-columns: 6fr 2fr 2fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemElement > .itemTog
+{
+    justify-self: end;
+}
+
+.itemText
+{
+    width: auto;
+}
+
+.completed > p
+{
+    text-decoration: line-through;
+}
+
+.itemDelete
+{
+    display: none;
+}
+
+.completed > .itemDelete
+{
+    display: inline;
+}
+
+.settings
+{
+    border-top: solid #fff .2rem;
+    padding: 1rem;
+    width: 90%;
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.itemDelete
+{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+
+.itemTog2
+{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 5rem;
+}
+
+.itemTog2:hover
+{
+    background-color: #aaa;
+}
+
+.itemTog2:active
+{
+    background-color: #555;
+}
+
+.showHideItem
+{
+    display: none;
+}
